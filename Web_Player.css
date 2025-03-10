@@ -1,0 +1,91 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+#player{
+    width: 300px;
+    margin: 18px 12px;
+    text-align: center;
+    border-radius: 25px;
+    border: 6px solid #ffffff;
+    filter: drop-shadow(0px 0px 10px #ffffff);
+}
+.img{
+    margin: 2px;
+}
+.top-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+    filter: blur(10px); /* Add blur filter */
+}
+.top-section img:hover {
+    filter: blur(0px); /* Remove blur filter */
+}
+.top-section img {
+    object-fit: cover; /* Maintain aspect ratio */
+    filter: none; /* Remove blur filter */
+}
+.top-section{
+    background-color: #ffffff00;
+    padding: 2px; 
+    filter: blur(0px);/* Adjust blur value */
+    transform: scale(.9);
+    opacity: 1;
+    
+}
+.middle-section{
+    background-color: #ffffff00; /* Default color */
+    padding: 5px;
+}
+.Song{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Artist{
+    font-size: 15px;
+    font-weight: bold;
+}
+#play, #stop, #rewind, #seek{
+    padding: 10px 10px;
+    margin: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: #ffffff;
+    filter: drop-shadow(11px 11px 6px #1a1a1a);
+}
+button:hover{
+    background-color: #9e0000;
+    color: #ffffff;
+    transform: scale(1.2);
+    filter: drop-shadow(11px 11px 6px #1a1a1a);
+}
+button:active{
+    background-color: #ffffff00;
+    color: #ffffff;
+    font-style: bold;
+    transform: scale(0.8);
+    filter: drop-shadow(11px 11px 6px #1a1a1a);
+}
+#time, #duration{
+    margin-top: 1px;
+    font-size: 14px;
+    color: #ffffff;
+}    
+#time{
+    text-align: left;
+    margin-left:15px ;
+}
+#duration{
+    text-align: right;
+    margin-right:15px ;
+}
+.progress-section{
+    display: flex;
+    gap: 215px;
+}

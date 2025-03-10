@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web player</title>
+    <link rel="stylesheet" href="Web_Player.css">
+</head>
+<body>
+    <div id="player">
+        <div class="top-section">
+        <img src="IMG_0252.PNG" width="250" height="320">
+        </div>
+        <div class="progress-section">
+             <p id="time">0:00</p>
+             <p id="duration">0:00</p>
+        </div>
+        <br>
+        <div class="middle-section">
+            <p class="Song"><span>Aalaporan Thamizhan</span></p>
+            <p class="Artist">Anirudh Ravichander</p>
+            <audio id="audio1" preload="auto">
+                <source src="Beast Mode BEAST.mp3"/>
+            </audio><br>
+            </div>
+        <div class="bottom-section">
+        <button id="rewind"> <<< </button>
+        <button id="play">Play</button>
+        <button id="stop">Stop</button>
+        <button id="seek"> >> </button>
+        </div>
+    </div>
+
+    
+    
+<script src="Web_Player.js"></script>
+</body>
+</html>
